@@ -32,11 +32,4 @@ public class Metrics {
                 "\n  Execution Time (ns): " + executionTimeNs +
                 "\n}";
     }
-
-    /**
-     * Generic method to measure execution time of any function returning a result.
-     * @param task The function or algorithm to run
-     * @param <T> The type of result returned by the function
-     * @return Result of the function
-     */
 }
