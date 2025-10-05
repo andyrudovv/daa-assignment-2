@@ -7,7 +7,7 @@ public class Metrics {
     private static long executionTimeNs;
 
 
-    public static void start() {
+    public void start() {
         startTime = System.nanoTime();
     }
 
@@ -16,7 +16,7 @@ public class Metrics {
         executionTimeNs = endTime - startTime;
     }
 
-    public static long getExecutionTimeNs() {
+    public long getExecutionTimeNs() {
         return executionTimeNs;
     }
 
