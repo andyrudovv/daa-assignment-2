@@ -1,11 +1,5 @@
 package org.example;
 
-import java.util.function.Supplier;
-
-/**
- * Universal performance metrics collector.
- * Can wrap any algorithm or operation (like a Python decorator).
- */
 public class Metrics {
 
     private static long startTime;
